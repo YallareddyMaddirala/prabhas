@@ -4,4 +4,8 @@ punlic void funA()
 {
 
 }
+public String arif(int a)
+{
+return a;
+}
 }
