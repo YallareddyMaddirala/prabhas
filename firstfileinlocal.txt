@@ -1,0 +1,7 @@
+public class r
+{
+punlic void funA()
+{
+
+}
+}
