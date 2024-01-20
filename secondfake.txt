@@ -1,0 +1,23 @@
+package Logicalprograms;
+
+public class PalindromeNumber {
+
+	public static void main(String[] args) {
+		int number = 14341, tempv, rem, sum = 0;
+		tempv = number;
+		while (number !=0) {
+		rem = number%10;
+		sum = sum*10+rem;
+		number = number/10;
+		}
+		if(tempv == sum)
+		{
+			System.out.println(tempv  + "is an PalindromeNumber ");
+		}
+		else
+		{
+			System.out.println(tempv + "is not an PalindromeNumber ");
+		}
+	}
+
+}
